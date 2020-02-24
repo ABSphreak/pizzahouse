@@ -5,7 +5,7 @@
 
 		<div class="content">
 				<div class="title m-b-md">
-						Pizza List - {{$id}}
+						Add New Pizza
 				</div>
 		</div>
 </div>

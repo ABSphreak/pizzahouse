@@ -21,8 +21,6 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Following this Project
-You can follow this project by using the commit history of this repository.
 
 ## License
 

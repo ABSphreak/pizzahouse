@@ -6,29 +6,30 @@ use Illuminate\Support\Facades\Schema;
 
 class CreatePizzasTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('pizzas', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
-            $table->string('type');
-            $table->string('base');
-            $table->string('name');
-        });
-    }
+	/**
+	 * Run the migrations.
+	 *
+	 * @return void
+	 */
+	public function up()
+	{
+		Schema::create('pizzas', function (Blueprint $table) {
+			$table->bigIncrements('id');
+			$table->timestamps();
+			$table->string('type');
+			$table->string('base');
+			$table->string('name');
+			$table->json('toppings');
+		});
+	}
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('pizzas');
-    }
+	/**
+	 * Reverse the migrations.
+	 *
+	 * @return void
+	 */
+	public function down()
+	{
+		Schema::dropIfExists('pizzas');
+	}
 }

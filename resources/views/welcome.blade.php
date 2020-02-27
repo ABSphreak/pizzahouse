@@ -21,6 +21,8 @@
         <div class="title m-b-md">
             The North's Best Pizzas
         </div>
+    <p class="msg">{{ session('msg') }}</p>
+        <a href="/pizzas/create">Order a Pizza</a>
     </div>
 </div>
 @endsection

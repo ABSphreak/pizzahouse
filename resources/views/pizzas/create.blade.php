@@ -23,7 +23,7 @@
 		</select>
 		<fieldset>
 			<label>Extra Toppings:</label>
-			<input type="checkbox" name="toppings" value="mushrooms"/>Mushrooms<br/>
+			<input type="checkbox" name="toppings[]" value="mushrooms"/>Mushrooms<br/>
 			<input type="checkbox" name="toppings[]" value="peppers"/>Peppers<br/>
 			<input type="checkbox" name="toppings[]" value="garlic"/>Garlic<br/>
 			<input type="checkbox" name="toppings[]" value="olives"/>Olives<br/>
